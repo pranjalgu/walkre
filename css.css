@@ -1,0 +1,155 @@
+body{
+font-family:arial}
+body{
+border:1px;
+
+//background-image: url("./images/back1.jpg");}
+
+  /* Add the blur effect */
+  filter: blur(70%);
+  -webkit-filter: blur(50px);
+
+  /* Full height */
+  height: 100%;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+opacity:0.8;
+padding:50px;
+color:white;}
+b{
+color:red;}
+b i{
+color:#0380fc;}
+#footer{
+width:500px;
+margin:2em auto 2em auto;
+border:2px;
+padding:20px;
+background-color:#fc03f4;
+font-family:roman;
+text-align:center;
+}
+#ab{
+border:2px;
+color:blue;}
+a{
+color:pink;}
+.feed{
+text-align:center;}
+h1{
+width:500px ;
+background-color:pink;
+margin:1em auto 1em auto;
+padding:5px;
+text-decoration:blink;
+border-radius:10px;}
+h1:first-letter{
+font-size:150%;
+text-align:center;}
+.box.box{
+width:600px;
+background-color:yellow;
+border-color:white;
+border-width:3px;
+padding:20px;
+margin:1em;
+}
+
+p{
+width:500px;
+border-color:black;
+background-color:rgb(3, 252, 244);
+color:black;
+margin:1em auto 1em auto;
+padding:20px;
+position:relative;
+right:20px;
+top:0;
+}
+
+c{
+float:left;
+background-color:white;
+margin:1em;
+padding:10px;
+overflow:hidden;}
+li>a{
+color:yellow;
+text-align:left;
+
+}
+h2{
+color:red;}
+span{
+text-decoration:none;}
+
+figcaption{
+font-weight:bold;
+border:2em;
+border-color:white;
+}
+a:visited{}
+input.submit:hover{
+color:red;}
+
+h2:first-letter{
+font-size:200%;
+color:#abeb34;}
+a:hover,:active{
+color:red;
+text-decoration:none;}
+
+.nav{
+background-color:#98fc03;
+color:black;
+text-transform:capitalized;
+font-weight:bold;
+text-align:center;
+word-spacing:3em;
+border-radius:10px;
+position:sticky;
+top:0;
+padding:20px;
+z-index:10;
+}
+.logo{
+position:sticky;
+top:0;}
+.b1{
+width=250px;
+}
+.b2{
+width=370px;}
+
+.chat{
+width:200px;
+height:200px;
+border:2px solid black;
+border-radius:10px;
+background-color:#b879107d;
+position:fixed;
+right:0;
+bottom:0;
+text-align:center;}
+
+@media screen and (min-width 768 px)
+{
+#footer{
+background-color:orange;
+}
+.chat{
+background-color:yellow;}
+}
+a{
+color:purple;
+}
+.nf{
+border:1px solid green;
+height:50px;
+width:500px;
+background-color:#03fce8;
+opacity:0.8;
+color:white;}
